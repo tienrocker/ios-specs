@@ -1,0 +1,71 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+#import "VGPDeleteAPI.h"
+#import "VGPForgotAPI.h"
+#import "VGPLinkAPI.h"
+#import "VGPLoginAPI.h"
+#import "VGPProfileAPI.h"
+#import "VGPRegisterAPI.h"
+#import "VGPConfigAPI.h"
+#import "VGPPaymentAPI.h"
+#import "VGPAPI.h"
+#import "VGPLogAPI.h"
+#import "InitAccountController.h"
+#import "LoginController.h"
+#import "ProfileController.h"
+#import "ProtectAccountController.h"
+#import "RegisterController.h"
+#import "RequireUpdateAgeController.h"
+#import "RequireUpdateInfoController.h"
+#import "FBSDKSharingCallback.h"
+#import "IAPHelper.h"
+#import "VGPConfig.h"
+#import "VGPHelper.h"
+#import "VGPIAPHelper.h"
+#import "VGPNetworkManager.h"
+#import "VGPSDKController.h"
+#import "VGPUI.h"
+#import "FCUUID.h"
+#import "UICKeyChainStore.h"
+#import "UIDevice+FCUUID.h"
+#import "VGPLogger.h"
+#import "UIData.h"
+#import "VGPDeviceData.h"
+#import "VGPFBSDKLoginManager.h"
+#import "VGPUserData.h"
+#import "VGPInterface.h"
+#import "TMSocket.h"
+#import "TMSocketCloseEvent.h"
+#import "UIActivityIndicatorView+VGPNetworking.h"
+#import "UIButton+VGPNetworking.h"
+#import "UIImageView+VGPNetworking.h"
+#import "UIKit+VGPNetworking.h"
+#import "UIProgressView+VGPNetworking.h"
+#import "UIRefreshControl+VGPNetworking.h"
+#import "VGPAutoPurgingImageCache.h"
+#import "VGPImageDownloader.h"
+#import "VGPNetworkActivityIndicatorManager.h"
+#import "WKWebView+VGPNetworking.h"
+#import "VGPCompatibilityMacros.h"
+#import "VGPHTTPSessionManager.h"
+#import "VGPNetworking.h"
+#import "VGPNetworkReachabilityManager.h"
+#import "VGPSecurityPolicy.h"
+#import "VGPURLRequestSerialization.h"
+#import "VGPURLResponseSerialization.h"
+#import "VGPURLSessionManager.h"
+#import "VGPSDK.h"
+
+FOUNDATION_EXPORT double VGPSDKVersionNumber;
+FOUNDATION_EXPORT const unsigned char VGPSDKVersionString[];
+
