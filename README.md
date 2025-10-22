@@ -49,19 +49,7 @@ ios-specs/
    - In **Build Settings**, verify that the `Framework Search Paths` includes the path to the directory containing `VGPSDK.xcframework` (if stored outside the project).
 
 4. **Using VGPSDK in Code**:
-   - Import the framework in your Objective-C files:
-
-     ```objc
-      #import <VGPSDK/VGPSDK.h>
-     ```
-
-   - Refer to the API documentation or headers in the `Headers/` directory for available APIs. Example:
-
-     ```objc
-     // Example initialization (replace with actual API)
-     VGPSDK *sdk = [[VGPSDK alloc] init];
-     [sdk initializeWithAPIKey:@"YOUR_API_KEY"];
-     ```
+   - Prefer [developer.vgplay.vn](https://developer.vgplay.vn/sdk/ios/intro)
 
 5. **Build and Run**:
    - Ensure the correct target (device or simulator) is selected in Xcode.
