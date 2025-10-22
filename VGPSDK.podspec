@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "VGPSDK"
-  spec.version      = "5.1.1"
+  spec.version      = "5.1.2"
   spec.summary      = "A core SDK for VGP functionalities."
   spec.description  = <<-DESC
     VGPSDK provides core functionalities for the VGP platform, including account management, payment, and networking.
@@ -13,6 +13,9 @@ Pod::Spec.new do |spec|
   # Minimum iOS supported version
   spec.platform     = :ios, "13.0"
   spec.ios.deployment_target = "13.0"
+
+  # Source
+  spec.source = { :git => "http://gitlab.vgplay.vn/tienrocker/ios-specs.git", :tag => "#{spec.version}" }
 
   # Framework
   spec.vendored_frameworks = "VGPSDK.xcframework"
