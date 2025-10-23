@@ -41,7 +41,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'GoogleSignIn', '~> 9.0.0'
 
   spec.dependency 'Adjust', '~> 5.4.5'
-  spec.dependency 'AdjustSignature', '~> 3.47.0'
 
   spec.dependency 'TikTokBusinessSDK', '~> 1.5.1'
   spec.dependency 'SocketRocket', '~> 0.7.1'
