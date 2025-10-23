@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
   spec.name         = "VGPSDK"
-  spec.version      = "5.1.2"
+  spec.version      = "5.1.3"
   spec.summary      = "A core SDK for VGP functionalities."
   spec.description  = <<-DESC
     VGPSDK provides core functionalities for the VGP platform, including account management, payment, and networking.
   DESC
-  spec.homepage     = "https://developer.vgplay.vn/sdk/ios/intro"
+  spec.homepage     = "https://gitlab.vgplay.vn/tienrocker/ios-specs.git"
   spec.license      = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
   spec.author       = { "Tien Tran" => "tienrocker@gmail.com" }
   spec.social_media_url = "https://twitter.com/tienrocker"
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "13.0"
 
   # Source
-  spec.source = { :git => "http://gitlab.vgplay.vn/tienrocker/ios-specs.git", :tag => "#{spec.version}" }
+  spec.source = { :git => "http://gitlab.vgplay.vn/tienrocker/ios-specs.git", :tag => spec.version.to_s }
 
   # Framework
   spec.vendored_frameworks = "VGPSDK.xcframework"
