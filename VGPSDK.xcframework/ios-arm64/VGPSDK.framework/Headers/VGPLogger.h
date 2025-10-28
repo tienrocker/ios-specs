@@ -53,6 +53,7 @@ extern BOOL is_started;
  @abstract Set config.
 */
 + (void)setGameVersion:(NSString*)code;
++ (NSString*)getGameVersion;
 
 /*!
  @abstract Set config.
