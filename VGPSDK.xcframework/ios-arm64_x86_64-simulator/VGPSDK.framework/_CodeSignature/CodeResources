@@ -142,7 +142,7 @@
 		</data>
 		<key>Headers/VGPInterface.h</key>
 		<data>
-		l4yzLj6EE2+fv+eKGwH3qlEz8Z8=
+		Q+pUkYgGD7QGSjgpFg86+OGCjkY=
 		</data>
 		<key>Headers/VGPLinkAPI.h</key>
 		<data>
@@ -230,7 +230,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eUO9XYQ364/ldHaHBVPMfDz/LUg=
+		MUv74uNbCg3WGF0StV69tP48sxo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -617,11 +617,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l4yzLj6EE2+fv+eKGwH3qlEz8Z8=
+			Q+pUkYgGD7QGSjgpFg86+OGCjkY=
 			</data>
 			<key>hash2</key>
 			<data>
-			GbArAa+0hYip9+odH8dUOm+qzYVAz3vP5s8RU/Wit/w=
+			B8myDcFY2TarFYnIP6EmGEu8WAM2YRchP0cjiw/Z5j8=
 			</data>
 		</dict>
 		<key>Headers/VGPLinkAPI.h</key>

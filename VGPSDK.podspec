@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "VGPSDK"
-  spec.version      = "5.1.6"
+  spec.version      = "5.1.7"
   spec.summary      = "A core SDK for VGP functionalities."
   spec.description  = <<-DESC
     VGPSDK provides core functionalities for the VGP platform, including account management, payment, and networking.
@@ -40,7 +40,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'FirebaseMessaging', '~> 11.15.0'
   spec.dependency 'GoogleSignIn', '~> 9.0.0'
 
-  spec.dependency 'Adjust', '~> 5.4.5'
+  spec.dependency 'Adjust', '~> 5.4.6'
 
   spec.dependency 'TikTokBusinessSDK', '~> 1.5.1'
   spec.dependency 'SocketRocket', '~> 0.7.1'
