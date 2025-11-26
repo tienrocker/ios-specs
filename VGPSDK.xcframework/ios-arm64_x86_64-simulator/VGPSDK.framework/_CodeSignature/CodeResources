@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/TMSocket.h</key>
 		<data>
-		LrjCzJBkfL2Kndxduv0b+OVUFm8=
+		dqGU6g01cPaBnUpiCDWELQhThyM=
 		</data>
 		<key>Headers/TMSocketCloseEvent.h</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Headers/VGPAPI.h</key>
 		<data>
-		uLm+q2LiTnAH54n3f+s3eEort1o=
+		Poc+rc25XsapWWSquau4glDFBHE=
 		</data>
 		<key>Headers/VGPAutoPurgingImageCache.h</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>Headers/VGPInterface.h</key>
 		<data>
-		Q+pUkYgGD7QGSjgpFg86+OGCjkY=
+		4qPohYq2g2jqmDzggQbN3GjSeCM=
 		</data>
 		<key>Headers/VGPLinkAPI.h</key>
 		<data>
@@ -230,7 +230,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MUv74uNbCg3WGF0StV69tP48sxo=
+		WrIZIDupDjJBQcHsm7rOClv0jC4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -353,11 +353,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LrjCzJBkfL2Kndxduv0b+OVUFm8=
+			dqGU6g01cPaBnUpiCDWELQhThyM=
 			</data>
 			<key>hash2</key>
 			<data>
-			eFZN0CjZErP/BHbehh3lGSlA4TEJQvOnZmNcgoB26Hg=
+			empdvZPW4p/85zg0bR3EazfX0JB08vGknO7esXrBHRo=
 			</data>
 		</dict>
 		<key>Headers/TMSocketCloseEvent.h</key>
@@ -474,11 +474,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uLm+q2LiTnAH54n3f+s3eEort1o=
+			Poc+rc25XsapWWSquau4glDFBHE=
 			</data>
 			<key>hash2</key>
 			<data>
-			oAzO9QJuyFRJxTFbPaY2DwQolDD/o4658fTVGmohDvs=
+			W5iOJYSO/SfvzAh5LpvU7hAXnL7mEdoB/DgRpO6QPYc=
 			</data>
 		</dict>
 		<key>Headers/VGPAutoPurgingImageCache.h</key>
@@ -617,11 +617,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q+pUkYgGD7QGSjgpFg86+OGCjkY=
+			4qPohYq2g2jqmDzggQbN3GjSeCM=
 			</data>
 			<key>hash2</key>
 			<data>
-			B8myDcFY2TarFYnIP6EmGEu8WAM2YRchP0cjiw/Z5j8=
+			sB6LTsBiVwgeTNghCN+vgGiaP2WtrLeYIPXiipbPbS0=
 			</data>
 		</dict>
 		<key>Headers/VGPLinkAPI.h</key>

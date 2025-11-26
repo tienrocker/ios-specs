@@ -27,6 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark -  Config
 
 + (void)getServerInfo;
++ (void)getServerInfo:(void (^ __nullable)(void))completion;
 
 #pragma mark -  Account login
 + (void)normalLogin:(NSString *)username password:(NSString *)password success:(VGPLoginAPISuccess)success failure:(VGPLoginAPIFailure)failure;

@@ -12,30 +12,28 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-// Định nghĩa delegate để xử lý các sự kiện WebSocket
 @protocol TMSocketDelegate <NSObject>
 @optional
 - (void)tmSocketDidOpen:(id)sender;
 - (void)tmSocket:(id)sender didReceiveMessage:(NSString *)message;
-- (void)tmSocket:(id)sender didCloseWithEvent:(nullable TMSocketCloseEvent *)event;
+- (void)tmSocket:(id)sender didCloseWithEvent:(TMSocketCloseEvent *)event;
 - (void)tmSocket:(id)sender didFailWithError:(NSError *)error;
 - (void)tmSocket:(id)sender didAttemptReconnect:(NSInteger)attemptCount;
 @end
 
 @interface TMSocket : NSObject <SRWebSocketDelegate>
 
-// Properties
+#pragma mark - Singleton
++ (instancetype)sharedSocket;
+
+#pragma mark - Public Properties
 @property (nonatomic, strong) NSString *url;
 @property (nonatomic, assign, readonly) BOOL isConnected;
 @property (nonatomic, assign) BOOL isPaused;
-@property (nonatomic, strong, readonly) NSDictionary *options;
 @property (nonatomic, weak, nullable) id<TMSocketDelegate> delegate;
 
-// Khởi tạo
-- (instancetype)initWithURL:(NSString *)url options:(nullable NSDictionary *)options;
-
-// Các phương thức public
-- (void)initialize;
+#pragma mark - Public Methods
+- (void)connect;
 - (BOOL)send:(id)data;
 - (void)close;
 - (BOOL)isSocketConnected;
