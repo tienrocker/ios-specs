@@ -16,7 +16,12 @@ NS_ASSUME_NONNULL_BEGIN
 @interface VGPHelper : NSObject
 
 #define MyLog(x, ...) NSLog(@"VGP-LOG %s %d: " x, __FUNCTION__, __LINE__, ##__VA_ARGS__)
-//#define FW_BUNDLE [NSBundle bundleForClass:[self class]]
+#define VGPLog(x, ...) do { \
+    if (VGP_SHOW_LOG) { \
+        MyLog(x, ##__VA_ARGS__); \
+    } \
+} while(0)
+
 #define FW_BUNDLE [NSBundle mainBundle]
 #define LAYOUT_WIDTH 650.0f
 #define LAYOUT_HEIGHT 320.0f
@@ -41,6 +46,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)getNSUserDefaults:(NSString *)name;
 + (void)setNSUserDefaults:(NSString *)name value:(NSString *)value;
+
+// Keychain methods for secure credential storage
++ (NSString *)getKeychainString:(NSString *)key;
++ (BOOL)setKeychainString:(NSString *)value forKey:(NSString *)key;
++ (BOOL)removeKeychainString:(NSString *)key;
++ (void)migrateCredentialsFromUserDefaultsToKeychain;
 
 + (NSString *)formatDate:(NSDate *)date;
 + (NSString *)formatDate:(NSDate *)date withDateFormat:(nullable NSString *)withDateFormat;

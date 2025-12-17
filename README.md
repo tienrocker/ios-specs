@@ -32,41 +32,18 @@ ios-specs/
 - **iOS**: Minimum deployment target iOS 13.0.
 - **Supported Architectures**: arm64 (devices), arm64/x86_64 (simulators).
 
-## Integration Instructions
-
-### 1. Manual Integration
-
-1. **Download the Repository**:
-   - Clone or download the repository from [http://gitlab.vgplay.vn/tienrocker/ios-specs/](http://gitlab.vgplay.vn/tienrocker/ios-specs/).
-   - Extract (if needed) to access the `VGPSDK.xcframework` folder.
-
-2. **Add Framework to Xcode Project**:
-   - Open your Xcode project.
-   - Drag and drop `VGPSDK.xcframework` into the **Frameworks, Libraries, and Embedded Content** section of your project target.
-   - Ensure the **Embed & Sign** option is selected.
-
-3. **Configure Build Settings** (if needed):
-   - In **Build Settings**, verify that the `Framework Search Paths` includes the path to the directory containing `VGPSDK.xcframework` (if stored outside the project).
-
-4. **Using VGPSDK in Code**:
-   - Prefer [developer.vgplay.vn](https://developer.vgplay.vn/sdk/ios/intro)
-
-5. **Build and Run**:
-   - Ensure the correct target (device or simulator) is selected in Xcode.
-   - Build and run your project.
-
-### 2. Integration via CocoaPods
+## Integration Instructions via CocoaPods
 
 1. **Add VGPSDK to Podfile**:
    - Include the following in your `Podfile`:
 
      ```ruby
-     pod 'VGPSDK', 'x.y.z'
+     pod 'VGPSDK'
      # or 
-     # pod 'VGPSDK'
+     # pod 'VGPSDK', , 'x.y.z'
      ```
 
-     Replace `x.y.z` with the desired version tag, or remove 'x.y.z' for the latest version.
+     Use `x.y.z` with the desired version tag, or blank for the latest version.
 
 2. **Install Pods**:
    - Run the following command in your project directory:
@@ -116,10 +93,6 @@ pod trunk push VGPSDK.podspec
 - Ensure the repository tag matches the version specified in `VGPSDK.podspec`.
 
 ## Troubleshooting
-
-- **"Framework not found" Error**:
-  - Verify `Framework Search Paths` in **Build Settings**.
-  - Ensure `VGPSDK.xcframework` is added to **Frameworks, Libraries, and Embedded Content** with **Embed & Sign**.
 
 - **Code Signing Issues**:
   - Check the `_CodeSignature` folder in the simulator framework.
