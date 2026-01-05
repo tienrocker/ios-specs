@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "13.0"
 
   # Source
-  spec.source = { :git => "https://gitlab.vgplay.vn/tienrocker/ios-specs.git", :tag => spec.version.to_s }
+  spec.source = { :git => "https://github.com/tienrocker/ios-specs.git", :tag => spec.version.to_s }
 
   # Framework
   spec.vendored_frameworks = "VGPSDK.xcframework"
