@@ -140,9 +140,49 @@
 		<data>
 		5hObakKT4phC9SDoliO5V9FGDcE=
 		</data>
+		<key>Headers/VGPInterface+Account.h</key>
+		<data>
+		o8ZkgK+DA82YHh9dyVmsnP2QwNY=
+		</data>
+		<key>Headers/VGPInterface+Adjust.h</key>
+		<data>
+		JpFg/5kuGscXHiQI5/Z2G3sKMw0=
+		</data>
+		<key>Headers/VGPInterface+AppLifecycle.h</key>
+		<data>
+		gh1x6INoZWYWv4zPG2XIVMnrv+o=
+		</data>
+		<key>Headers/VGPInterface+IAP.h</key>
+		<data>
+		oOFXLUl4QXvMLyAgvRL0py1BgfA=
+		</data>
+		<key>Headers/VGPInterface+Marketing.h</key>
+		<data>
+		4a2QhoArpEj3zHohTgrifbSeDEQ=
+		</data>
+		<key>Headers/VGPInterface+Notifications.h</key>
+		<data>
+		KIvu7PGCuiJ/S0aDtqs0wALeqp0=
+		</data>
+		<key>Headers/VGPInterface+Private.h</key>
+		<data>
+		oNHVGW+zaj8hzaDNWFA1Z07pOYM=
+		</data>
+		<key>Headers/VGPInterface+Purchase.h</key>
+		<data>
+		MMsCwZVTNVjfmdmEy0JIBaNRm7M=
+		</data>
+		<key>Headers/VGPInterface+SDKConfiguration.h</key>
+		<data>
+		yDDxbqSNYo6W27gJtKx+zkY/iHE=
+		</data>
+		<key>Headers/VGPInterface+Socket.h</key>
+		<data>
+		XuUnEMvPPmMv2+5sIrWHjZl4xPI=
+		</data>
 		<key>Headers/VGPInterface.h</key>
 		<data>
-		aCTZ2a0uhKb0kFGX2i9aQMpscns=
+		8LM/2h1SDl+KVgGmDRUFZTZHPv0=
 		</data>
 		<key>Headers/VGPLinkAPI.h</key>
 		<data>
@@ -190,7 +230,7 @@
 		</data>
 		<key>Headers/VGPSDK-umbrella.h</key>
 		<data>
-		MOYByvMznUzossDFiZmdKs3MYts=
+		XuOE9vYATxgILmRmStORaXA+hcc=
 		</data>
 		<key>Headers/VGPSDK.h</key>
 		<data>
@@ -230,7 +270,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WrIZIDupDjJBQcHsm7rOClv0jC4=
+		P9cWeGgMHT91RVa2l2gcb04k6DE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -613,15 +653,125 @@
 			wCfbTO4sCKlTL6/AV6PTD/gqrQCHJvGYq8BJ4Lu8JsM=
 			</data>
 		</dict>
+		<key>Headers/VGPInterface+Account.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			o8ZkgK+DA82YHh9dyVmsnP2QwNY=
+			</data>
+			<key>hash2</key>
+			<data>
+			kIalGwWH+vBFW4H9E+qkvdF6Hnb4qKPUI2nsPeqnMPQ=
+			</data>
+		</dict>
+		<key>Headers/VGPInterface+Adjust.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JpFg/5kuGscXHiQI5/Z2G3sKMw0=
+			</data>
+			<key>hash2</key>
+			<data>
+			y+2IOB/AX6roaCKTZEvbMTyyuwfn2zp6vnxhx0qyFbc=
+			</data>
+		</dict>
+		<key>Headers/VGPInterface+AppLifecycle.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gh1x6INoZWYWv4zPG2XIVMnrv+o=
+			</data>
+			<key>hash2</key>
+			<data>
+			Esp5TWU64sIvkQX4s4hrGmk8AEZ6TJBB+PncqiNfRgE=
+			</data>
+		</dict>
+		<key>Headers/VGPInterface+IAP.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oOFXLUl4QXvMLyAgvRL0py1BgfA=
+			</data>
+			<key>hash2</key>
+			<data>
+			DddUV1LuyGRhU3OT/bKVUacwqCfiU/rFcYp645tZ/xc=
+			</data>
+		</dict>
+		<key>Headers/VGPInterface+Marketing.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4a2QhoArpEj3zHohTgrifbSeDEQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			D0jNynjv4hLg1q4QkBjh4gyuqUKSNJ3brbxSOmUB0a4=
+			</data>
+		</dict>
+		<key>Headers/VGPInterface+Notifications.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KIvu7PGCuiJ/S0aDtqs0wALeqp0=
+			</data>
+			<key>hash2</key>
+			<data>
+			b50pgzcDCQ89Q98iHdIHBu7w8GRYrH6pa9oSf0gTm+4=
+			</data>
+		</dict>
+		<key>Headers/VGPInterface+Private.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oNHVGW+zaj8hzaDNWFA1Z07pOYM=
+			</data>
+			<key>hash2</key>
+			<data>
+			BZ6UNTe0pIp69dVRGZLJbQklE0BuwgvID/YJ6sB0a+I=
+			</data>
+		</dict>
+		<key>Headers/VGPInterface+Purchase.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MMsCwZVTNVjfmdmEy0JIBaNRm7M=
+			</data>
+			<key>hash2</key>
+			<data>
+			3W6roiXJJbN5xxXnmK90EyTMnlgGAE5OAIcMBoSgMdw=
+			</data>
+		</dict>
+		<key>Headers/VGPInterface+SDKConfiguration.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yDDxbqSNYo6W27gJtKx+zkY/iHE=
+			</data>
+			<key>hash2</key>
+			<data>
+			Lx78LBD5e2dnjejIYFpXm2sR5VwF0OGBepYHcjHYU2c=
+			</data>
+		</dict>
+		<key>Headers/VGPInterface+Socket.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XuUnEMvPPmMv2+5sIrWHjZl4xPI=
+			</data>
+			<key>hash2</key>
+			<data>
+			jjbzz8gF2jUOmMxNLCTmawQz2yPct6fcnGQtwIBXa3s=
+			</data>
+		</dict>
 		<key>Headers/VGPInterface.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aCTZ2a0uhKb0kFGX2i9aQMpscns=
+			8LM/2h1SDl+KVgGmDRUFZTZHPv0=
 			</data>
 			<key>hash2</key>
 			<data>
-			VMU1K+XX3HWXWWvM/yJyRNk7Fop5MLjXfzS1SL9xl6A=
+			E+WjUsEZ1WdCMpnlgbDSxkW1exKvjpyqvv07MmHqxRk=
 			</data>
 		</dict>
 		<key>Headers/VGPLinkAPI.h</key>
@@ -749,11 +899,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MOYByvMznUzossDFiZmdKs3MYts=
+			XuOE9vYATxgILmRmStORaXA+hcc=
 			</data>
 			<key>hash2</key>
 			<data>
-			2Iqn118RPC0QFkrVGFO/W0lzp7zHsf1Xt3WOcQWUQ1E=
+			MBsF6U8p8cslA4x9ErOBg4VlN6bozP7Cvvys6PSGWZA=
 			</data>
 		</dict>
 		<key>Headers/VGPSDK.h</key>
